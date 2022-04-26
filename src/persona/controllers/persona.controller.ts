@@ -4,7 +4,7 @@ import { BaseService } from "src/commons/service.commons";
 import { Persona } from "../entities/persona.entity";
 import { PersonaService } from "../services/persons.service";
 
-@Controller('api/persona')
+@Controller('persona')
 export class PersonaController extends BaseController<Persona> {
 
     constructor(private readonly personaService: PersonaService) {

@@ -6,7 +6,7 @@ export abstract class BaseController<T> {
 
     abstract getService(): BaseService<T>;
 
-    @Get('all')
+    @Get()
     async findAll() : Promise<T[]> {
         return await this.getService().findAll();
     }
