@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Body, Get, HttpCode, HttpStatus, Param, Post, UseGuards } from "@nestjs/common";
 import { BaseService } from "./service.commons";
 

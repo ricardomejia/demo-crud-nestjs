@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { FindManyOptions, Repository } from "typeorm";
 
 export abstract class BaseService<T> {
